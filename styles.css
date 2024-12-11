@@ -1,0 +1,152 @@
+:root{
+    --main-color : rgb(187, 229, 255);
+    --second-color : rgb(255, 255, 255);
+    --thrid--color : rgb(86, 86, 86);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #e2e2e217, #1b1b1b55),url('https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Hind Mysuru", sans-serif;
+    height: 100vh;
+    
+    
+}
+header{
+    height: 5%;
+    padding: 10px 50px;
+}
+
+.nav-a a{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: white;
+}
+
+/*  */
+
+main{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    /* background-color: aqua; */
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.container{
+    text-align: center;
+    /* display: flex;
+    flex-wrap: wrap; */
+    
+   
+
+}
+
+/*  */
+.container h1{
+    letter-spacing: 3px;
+    color: var(--second-color);
+}
+
+.container p{
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: var(--second-color);
+
+}
+
+progress{
+    width: 350px;
+    height: 7px;
+    border-radius: 10px;    
+    margin-bottom: 0;
+    box-shadow: 1px 7px 5px 5px rgba(0,0,0,0.34);
+}
+progress::-webkit-progress-value{
+    background-color: var(--main-color);
+
+}
+progress::-webkit-progress-bar{
+    background-color: var(--second-color);
+
+}
+
+pre{
+    margin-top: 0;
+    color: var(--second-color);
+    font-size: 12px;
+}
+
+
+.number div{
+    display: inline-block;
+    justify-content: space-between;
+    
+}
+
+button{
+    padding: 5px 15px;
+    border-radius: 0;
+    background-color: var(--main-color);
+    border: 0;
+    color: var(--thrid--color);
+    margin: 10px;
+}
+
+/* footer{
+    margin-top: 300px;
+
+} */
+
+.social{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+    
+}
+.social div{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border: 1px solid var(--second-color);
+    border-radius: 50%;
+    overflow: hidden;
+
+    
+}
+
+footer{
+    margin-top: 10px;
+    height: 5%;
+    align-items: end;
+    text-align: center;
+}
+
+footer hr{
+    border: 0.5px solid var(--thrid--color);
+    width: 90%;
+    margin-inline: auto;
+    
+}
+
+footer p{
+    margin-top: 3px;
+    font-size: 10px;
+    font-weight: 100;
+    color: var(--thrid--color);
+}
+
+
+    
+
